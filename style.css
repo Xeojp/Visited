@@ -18,7 +18,6 @@ a {
     color: inherit;
 }
 
-/* ===== Hero Section ===== */
 header.hero {
     position: relative;
     height: 100vh;
@@ -54,19 +53,18 @@ header.hero canvas#hero-bg {
     color: #ffa84d;
 }
 
-/* ===== Typing Text ===== */
 #hero-typing {
     font-size: 1.5rem;
     line-height: 1.5;
     color: #ffd1a9;
-    white-space: pre-line; /* сохраняем переносы строк */
+    white-space: pre-line;
     margin-bottom: 25px;
-    min-height: 140px; /* кнопка не прыгает */
+    min-height: 140px;
 }
 
 .highlight {
-    color: #ff8c42; /* выбери любой цвет для выделения */
-    font-weight: 500; /* чуть жирнее обычного, можно убрать или поставить 400 */
+    color: #ff8c42;
+    font-weight: 500;
 }
 
 @keyframes gradientShift {
@@ -75,7 +73,6 @@ header.hero canvas#hero-bg {
     100% { background-position: 0% 50%; }
 }
 
-/* ===== Hero Button ===== */
 .btn-hero {
     display: inline-block;
     padding: 15px 35px;
@@ -107,7 +104,6 @@ header.hero canvas#hero-bg {
     60% {transform: translateY(-8px);}
 }
 
-/* ===== About Section ===== */
 section.about {
     padding: 80px 20px;
     max-width: 1000px;
@@ -151,7 +147,6 @@ section.about p {
     box-shadow: 0 0 30px rgba(255,140,66,0.5);
 }
 
-/* ===== Skill Circles ===== */
 .skill-bars {
     display: flex;
     justify-content: center;
@@ -180,7 +175,6 @@ section.about p {
     transition: all 1s ease;
 }
 
-/* ===== Projects ===== */
 section.projects {
     padding: 80px 20px;
     background: #1f0d0d;
@@ -226,7 +220,6 @@ section.projects h2 {
     transition: width 2s ease;
 }
 
-/* ===== Contact Section ===== */
 section.contact {
     padding: 80px 20px;
     max-width: 800px;
@@ -262,7 +255,6 @@ section.contact h2 {
     box-shadow: 0 0 30px rgba(255,168,77,0.7);
 }
 
-/* ===== Footer ===== */
 footer {
     padding: 25px 20px;
     text-align: center;
