@@ -1,4 +1,3 @@
-// ===== Hero Background Particles =====
 const canvas = document.getElementById('hero-bg');
 const ctx = canvas.getContext('2d');
 let w, h;
@@ -39,14 +38,12 @@ window.addEventListener('resize', initCanvas);
 initCanvas();
 drawParticles();
 
-// ===== Typing Effect с градиентом =====
 const heroText = `Привет! Я Xeokp
 Разрабатываю веб-приложения,
 Telegram и Discord ботов,
 увлекаюсь олимпиадным программированием
 и математикой!`;
 
-// ключевые слова для градиента
 const highlights = ['веб-приложения', 'Telegram', 'Discord ботов', 'олимпиадным программированием', 'математикой'];
 
 function typeTextGradient(elementId, text, speed = 40) {
@@ -76,7 +73,6 @@ window.addEventListener('DOMContentLoaded', () => {
     typeTextGradient('hero-typing', heroText);
 });
 
-// ===== Projects Progress Bars Animation =====
 const projectBars = document.querySelectorAll('.project-progress');
 projectBars.forEach(bar => {
     const percent = bar.getAttribute('data-percent');
@@ -88,7 +84,6 @@ projectBars.forEach(bar => {
     }, 500);
 });
 
-// ===== Circular Skill Bars =====
 function animateCircles() {
     const circles = document.querySelectorAll('.progress-circle');
     circles.forEach(circle => {
@@ -107,7 +102,6 @@ function animateCircles() {
 }
 animateCircles();
 
-// ===== Scroll Reveal Animation =====
 const revealElements = document.querySelectorAll('.tool-card, .project-card, .skill');
 
 function revealOnScroll() {
