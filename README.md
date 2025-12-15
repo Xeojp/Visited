@@ -2,5 +2,5 @@
 - HTML
 - CSS
 - JavaScript
-- 
+  
 Данный сайт-визитку можно посмотреть по ссылке: https://unique-dasik-7085f0.netlify.app/
